@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
+    height: fit-content;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -10,14 +11,14 @@ body {
 }
 
 .team-section {
-    background-color: #009655;
-    min-height: 100vh;
+    max-height: 200vh;
     padding: 70px 15px 30px;
 }
 
 .container {
     max-width: 1400PX;
     margin: auto;
+    background-color: transparent;
 }
 
 .row {
@@ -32,11 +33,13 @@ body {
 }
 
 .team-section .section-title h1 {
-    font-size: 40px;
     text-align: center;
-    margin: 0;
-    color: #ffffff;
-    font-weight: 700;
+  font-size: 70px;
+  font-family: "moondance";
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .team-section .section-title p {

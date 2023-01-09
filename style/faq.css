@@ -1,0 +1,95 @@
+
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#questionss{
+  text-align: center;
+  font-size: 35px;
+  font-family: "moondance";
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.question h2 {
+  margin: 80px auto 10px;
+}
+
+#answer{
+  text-align: justify;
+  font-size: 25px;
+  padding: 0 0.8rem;
+  font-family: "andromeda";
+  background-color: transparent;
+}
+
+.accordion {
+  margin: 0 auto;
+  padding: 64px;
+  width:90%;
+  border-radius: 5%;
+}
+
+.accordion-item {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 80px;
+}
+
+.accordion-item button {
+  position: relative;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  border: none;
+  outline: none;
+
+}
+
+.accordion-item button:hover {
+  cursor: pointer;
+}
+
+.accordion-content p {
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.accordion-button {
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: transparent;
+}
+
+.rotate {
+  transition: 0.6s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+@media(max-width:768px) {
+  html,
+  body {
+      overflow-x: hidden !important;
+  }
+  body {
+      margin: 0px !important;
+      align-items: center;
+  }
+  .accordion {
+      width: 95%;
+  }
+  .question h3 {
+      width: 90%;
+  }
+}
